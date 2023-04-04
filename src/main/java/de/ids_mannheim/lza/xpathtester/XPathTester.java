@@ -69,6 +69,7 @@ public class XPathTester {
                         .argName("ALL_TEXT")
                         .option("t")
                         .longOpt("all-text")
+                        .desc("Lists all the text nodes of the element and all its children")
                         .required(false)
                         .hasArg(false)
                         .build())
